@@ -1,3 +1,7 @@
-einops
+tqdm
+numpy
 beartype
-MEGABYTE_pytorch==0.2.1
+biopython
+einops
+MEGABYTE-pytorch==0.2.1
+torch==2.3.0

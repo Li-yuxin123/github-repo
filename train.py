@@ -6,9 +6,6 @@ import torch.nn as nn
 from Bio import SeqIO
 import torch.optim as optim  
 from torch.utils.data import DataLoader, Dataset  
-from stripedhyena.model import StripedHyena  
-from stripedhyena.utils import dotdict  
-from stripedhyena.tokenizer import CharLevelTokenizer 
 from torch.cuda.amp import GradScaler, autocast
 import numpy as np
 import logging
@@ -28,7 +25,6 @@ class DNADataset(Dataset):
     def __init__(self, sequences, seq_length=8192):
         self.seq_length = seq_length
         self.sequences = sequences
-        # MEGADNA 的词汇表映射
         self.nucleotide_to_token = {'A': 1, 'T': 2, 'C': 3, 'G': 4, 'N': 0}  # pad_id=0
 
     def __len__(self):
@@ -107,10 +103,10 @@ def train_megadna_model(config_path, custom_sequences, output_dir, epochs=10, ba
     # model = StripedHyena(global_config)
     # MEGADNA 初始化
     model = MEGADNA(
-    num_tokens=6,           # A,T,C,G + 特殊token
-    dim=512,                # 模型维度，可以根据需要调整
-    depth=(8, 4),           # 两层结构，老师要求的
-    max_seq_len=(8192, 32)  # 最大序列长度，与你的数据匹配
+    num_tokens=6,           
+    dim=(512,256),                
+    depth=(8, 8),           
+    max_seq_len=(256, 32)  
     )
     # # print("Loaded configuration:", global_config)
     # log_message(f"Loaded configuration: {global_config}")
@@ -266,7 +262,7 @@ for record in SeqIO.parse("combined_contigs_virus_filtered_96K_sampled1K.fna", "
       
 output_dir = "megadna_trained_model" 
     
-epochs = 55
+epochs = 45
 batch_size = 1  
 learning_rate = 1e-4  
 
