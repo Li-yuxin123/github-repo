@@ -1,0 +1,115 @@
+2025-10-29 14:50:28 - ==================================================
+2025-10-29 14:50:28 - Starting MEGADNA training
+2025-10-29 14:50:28 - Output directory: megadna_trained_model
+2025-10-29 14:50:28 - Epochs: 45, Batch size: 1, Learning rate: 0.0001
+2025-10-29 14:50:50 - ==================================================
+2025-10-29 14:50:50 - Starting MEGADNA training
+2025-10-29 14:50:50 - Output directory: megadna_trained_model
+2025-10-29 14:50:50 - Epochs: 45, Batch size: 1, Learning rate: 0.0001
+2025-10-29 14:50:50 - sequence size: 1000
+2025-10-29 14:50:50 - Total trainable parameters: 49,125,894
+2025-10-29 14:50:50 - 
+--- Layer-wise Trainable Parameters ---
+2025-10-29 14:51:30 - Epoch 1/45, Loss: 1.3453, Duration: 40.08 s
+2025-10-29 14:51:31 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_1.pt
+2025-10-29 14:55:11 - ==================================================
+2025-10-29 14:55:11 - Starting MEGADNA training
+2025-10-29 14:55:11 - Output directory: megadna_trained_model
+2025-10-29 14:55:11 - Epochs: 55, Batch size: 1, Learning rate: 0.0001
+2025-10-29 14:55:11 - sequence size: 1000
+2025-10-29 14:55:11 - Total trainable parameters: 49,125,894
+2025-10-29 14:55:11 - 
+--- Layer-wise Trainable Parameters ---
+2025-10-29 14:55:52 - Epoch 1/55, Loss: 1.3457, Duration: 41.08 s
+2025-10-29 14:55:53 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_1.pt
+2025-10-29 14:56:34 - Epoch 2/55, Loss: 1.3234, Duration: 40.38 s
+2025-10-29 14:56:34 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_2.pt
+2025-10-29 14:57:15 - Epoch 3/55, Loss: 1.3155, Duration: 40.49 s
+2025-10-29 14:57:16 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_3.pt
+2025-10-29 14:57:56 - Epoch 4/55, Loss: 1.3098, Duration: 40.29 s
+2025-10-29 14:57:57 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_4.pt
+2025-10-29 14:58:36 - Epoch 5/55, Loss: 1.3053, Duration: 39.67 s
+2025-10-29 14:58:37 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_5.pt
+2025-10-29 14:59:17 - Epoch 6/55, Loss: 1.3009, Duration: 40.21 s
+2025-10-29 14:59:18 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_6.pt
+2025-10-29 14:59:58 - Epoch 7/55, Loss: 1.2944, Duration: 39.91 s
+2025-10-29 14:59:59 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_7.pt
+2025-10-29 15:00:39 - Epoch 8/55, Loss: 1.2843, Duration: 40.58 s
+2025-10-29 15:00:40 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_8.pt
+2025-10-29 15:01:20 - Epoch 9/55, Loss: 1.2672, Duration: 40.07 s
+2025-10-29 15:01:21 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_9.pt
+2025-10-29 15:02:01 - Epoch 10/55, Loss: 1.2385, Duration: 40.19 s
+2025-10-29 15:02:02 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_10.pt
+2025-10-29 15:02:43 - Epoch 11/55, Loss: 1.1900, Duration: 40.79 s
+2025-10-29 15:02:44 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_11.pt
+2025-10-29 15:03:25 - Epoch 12/55, Loss: 1.1198, Duration: 41.40 s
+2025-10-29 15:03:26 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_12.pt
+2025-10-29 15:04:07 - Epoch 13/55, Loss: 1.0295, Duration: 41.08 s
+2025-10-29 15:04:08 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_13.pt
+2025-10-29 15:04:49 - Epoch 14/55, Loss: 0.9242, Duration: 41.19 s
+2025-10-29 15:04:50 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_14.pt
+2025-10-29 15:05:30 - Epoch 15/55, Loss: 0.8165, Duration: 40.18 s
+2025-10-29 15:05:31 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_15.pt
+2025-10-29 15:06:11 - Epoch 16/55, Loss: 0.7127, Duration: 39.99 s
+2025-10-29 15:06:11 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_16.pt
+2025-10-29 15:06:51 - Epoch 17/55, Loss: 0.6161, Duration: 40.06 s
+2025-10-29 15:06:52 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_17.pt
+2025-10-29 15:07:32 - Epoch 18/55, Loss: 0.5312, Duration: 39.83 s
+2025-10-29 15:07:33 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_18.pt
+2025-10-29 15:08:13 - Epoch 19/55, Loss: 0.4568, Duration: 40.61 s
+2025-10-29 15:08:14 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_19.pt
+2025-10-29 15:08:54 - Epoch 20/55, Loss: 0.3953, Duration: 40.06 s
+2025-10-29 15:08:55 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_20.pt
+2025-10-29 15:09:35 - Epoch 21/55, Loss: 0.3438, Duration: 39.87 s
+2025-10-29 15:09:36 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_21.pt
+2025-10-29 15:10:16 - Epoch 22/55, Loss: 0.3015, Duration: 40.03 s
+2025-10-29 15:10:16 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_22.pt
+2025-10-29 15:10:56 - Epoch 23/55, Loss: 0.2642, Duration: 40.18 s
+2025-10-29 15:10:57 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_23.pt
+2025-10-29 15:11:38 - Epoch 24/55, Loss: 0.2346, Duration: 40.28 s
+2025-10-29 15:11:38 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_24.pt
+2025-10-29 15:12:18 - Epoch 25/55, Loss: 0.2095, Duration: 40.05 s
+2025-10-29 15:12:19 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_25.pt
+2025-10-29 15:13:00 - Epoch 26/55, Loss: 0.1901, Duration: 41.30 s
+2025-10-29 15:13:01 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_26.pt
+2025-10-29 15:13:42 - Epoch 27/55, Loss: 0.1726, Duration: 40.65 s
+2025-10-29 15:13:43 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_27.pt
+2025-10-29 15:14:23 - Epoch 28/55, Loss: 0.1575, Duration: 40.17 s
+2025-10-29 15:14:23 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_28.pt
+2025-10-29 15:15:04 - Epoch 29/55, Loss: 0.1461, Duration: 40.29 s
+2025-10-29 15:15:04 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_29.pt
+2025-10-29 15:15:45 - Epoch 30/55, Loss: 0.1355, Duration: 40.40 s
+2025-10-29 15:15:46 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_30.pt
+2025-10-29 15:16:26 - Epoch 31/55, Loss: 0.1267, Duration: 40.70 s
+2025-10-29 15:16:27 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_31.pt
+2025-10-29 15:17:08 - Epoch 32/55, Loss: 0.1186, Duration: 40.75 s
+2025-10-29 15:17:08 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_32.pt
+2025-10-29 15:17:49 - Epoch 33/55, Loss: 0.1135, Duration: 40.61 s
+2025-10-29 15:17:50 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_33.pt
+2025-10-29 15:18:30 - Epoch 34/55, Loss: 0.1064, Duration: 40.59 s
+2025-10-29 15:18:31 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_34.pt
+2025-10-29 15:19:11 - Epoch 35/55, Loss: 0.0996, Duration: 40.30 s
+2025-10-29 15:19:12 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_35.pt
+2025-10-29 15:19:52 - Epoch 36/55, Loss: 0.0959, Duration: 39.94 s
+2025-10-29 15:19:53 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_36.pt
+2025-10-29 15:20:33 - Epoch 37/55, Loss: 0.0917, Duration: 39.85 s
+2025-10-29 15:20:33 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_37.pt
+2025-10-29 15:21:13 - Epoch 38/55, Loss: 0.0885, Duration: 39.84 s
+2025-10-29 15:21:14 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_38.pt
+2025-10-29 15:21:55 - Epoch 39/55, Loss: 0.0848, Duration: 40.65 s
+2025-10-29 15:21:55 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_39.pt
+2025-10-29 15:22:36 - Epoch 40/55, Loss: 0.0808, Duration: 40.64 s
+2025-10-29 15:22:37 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_40.pt
+2025-10-29 15:23:17 - Epoch 41/55, Loss: 0.0772, Duration: 40.13 s
+2025-10-29 15:23:18 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_41.pt
+2025-10-29 15:23:58 - Epoch 42/55, Loss: 0.0754, Duration: 40.71 s
+2025-10-29 15:23:59 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_42.pt
+2025-10-29 15:24:39 - Epoch 43/55, Loss: 0.0728, Duration: 40.33 s
+2025-10-29 15:24:40 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_43.pt
+2025-10-29 15:25:21 - Epoch 44/55, Loss: 0.0704, Duration: 40.87 s
+2025-10-29 15:25:22 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_44.pt
+2025-10-29 15:26:03 - Epoch 45/55, Loss: 0.0680, Duration: 40.65 s
+2025-10-29 15:26:03 - Checkpoint saved to megadna_trained_model/megadna_model_epoch_45.pt
+2025-10-29 15:26:44 - Epoch 46/55, Loss: 0.0662, Duration: 40.90 s
+2025-10-29 15:26:45 - Training Completed
+2025-10-29 15:26:45 - ==================================================
