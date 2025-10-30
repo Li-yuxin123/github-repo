@@ -1,0 +1,3 @@
+einops
+beartype
+MEGABYTE_pytorch==0.2.1
